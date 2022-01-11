@@ -1,0 +1,27 @@
+.footer {
+	width: 100%;
+	@extend %shadow2;
+	border-radius: 64px 64px 0px 0px;
+	padding: 50px 20px;
+	.logo {
+		margin: 0 auto;
+		width: 323px;
+		img {
+			width: 323px;
+			height: auto;
+			margin: 0 auto;
+		}
+		.navLinks {
+			@include centerBox();
+			@extend %listMargin;
+			li a {
+				padding: 10px;
+				display: block;
+				img {
+					width: 32px;
+					height: auto;
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,41 @@
+.roadmap {
+	max-width: 732px;
+	margin: 70px auto;
+
+	h2 {
+		font-size: 146px;
+		font-size: 400;
+		color: $color1;
+	}
+	h3 {
+		margin-top: 30px;
+		font-weight: 600;
+		color: $fontColor;
+		font-size: 48px;
+	}
+	ul {
+		margin-top: 20px;
+		margin-left: 20px;
+		margin-bottom: 50px;
+		color: $fontColor;
+		li {
+			font-size: 24px;
+		}
+	}
+	.percentages {
+		@include centerBox();
+		.numberP {
+			width: 200px;
+			font-size: 48px;
+			font-weight: 600;
+			line-height: 56px;
+		}
+		.listDesc {
+			margin-left: 20px;
+			width: 464px;
+			li {
+				font-size: 24px;
+			}
+		}
+	}
+}

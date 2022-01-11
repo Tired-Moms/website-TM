@@ -1,0 +1,50 @@
+.topNav {
+	@extend %shadow;
+	min-height: 192px;
+	border-radius: 0px 0px 56px 56px;
+	@include centerBox();
+	position: absolute;
+	background-color: $bgColor;
+	top: 0;
+	left: 0;
+	display: flex;
+	width: 100%;
+	z-index: 9999;
+	.logoBox {
+		margin: 10px;
+		img {
+			width: 200px;
+			height: auto;
+		}
+	}
+	.menuBox {
+		ul {
+			@extend %listMargin;
+			@include centerBox();
+			li a {
+				padding: 10px 20px;
+				display: block;
+				color: $fontColor;
+				font-size: 24px;
+				font-weight: 400;
+				&:hover {
+					color: $color1;
+				}
+			}
+		}
+	}
+	.socialBox {
+		.navLinks {
+			@include centerBox();
+			@extend %listMargin;
+			li a {
+				padding: 10px;
+				display: block;
+				img {
+					width: 32px;
+					height: auto;
+				}
+			}
+		}
+	}
+}
