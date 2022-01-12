@@ -59,7 +59,7 @@ export default function Homepage() {
 					</div>
 					<Membership />
 					<Gallery />
-					<VideoSection />
+					{/* <VideoSection /> */}
 					<AboutTheArt />
 					<RoadMap />
 					<TheTeam />
