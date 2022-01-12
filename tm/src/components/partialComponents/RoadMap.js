@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function RoadMap() {
 	return (
-		<div className="roadmap">
+		<div className="roadmap" id="roadmap">
 			<h2>ROADMAP</h2>
 			<h3>PREMINT</h3>
 			<ul>
@@ -19,8 +19,8 @@ export default function RoadMap() {
 						5 NFT’s will be raffled off and airdropped for 25% first holders.
 					</li>
 					<li>
-						Voting for the DAO will be set up and and community wallet will
-						start accumulating funds.
+						Voting for the DAO will be set up and community wallet will start
+						accumulating funds.
 					</li>
 				</ul>
 			</div>

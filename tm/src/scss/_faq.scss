@@ -3,15 +3,45 @@
 	max-width: 732px;
 	margin: 100px auto;
 	padding-bottom: 70px;
+	@media (max-width: 600px) {
+		padding-bottom: 0;
+	}
 	h2 {
 		color: $color1;
 		font-size: 142px;
 		font-weight: 600;
+		margin-bottom: 50px;
+		@media (max-width: 600px) {
+			font-size: 65px;
+		}
 	}
-	h3 {
-		font-size: 34px;
-		color: $fontColor;
-		line-height: 200%;
-		font-weight: 400;
+	ul {
+		@extend %listMargin;
+		li {
+			font-size: 34px;
+			color: $fontColor;
+			font-weight: 400;
+			@media (max-width: 600px) {
+				font-size: 22px;
+			}
+		}
+		ul {
+			list-style-type: disc;
+			margin-block-start: 20px;
+			margin-block-end: 20px;
+			margin-inline-start: 20px;
+			margin-inline-end: 20px;
+			padding-inline-start: 20px;
+			margin-bottom: 50px;
+
+			li {
+				font-size: 24px;
+				color: $fontColor;
+				font-weight: 400;
+				@media (max-width: 600px) {
+					font-size: 20px;
+				}
+			}
+		}
 	}
 }

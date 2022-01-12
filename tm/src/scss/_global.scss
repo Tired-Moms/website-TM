@@ -13,6 +13,10 @@ body {
 	background-color: $bgColor;
 }
 
+html {
+	scroll-behavior: smooth;
+}
+
 a {
 	cursor: pointer;
 	text-decoration: none;

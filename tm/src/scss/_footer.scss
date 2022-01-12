@@ -3,13 +3,21 @@
 	@extend %shadow2;
 	border-radius: 64px 64px 0px 0px;
 	padding: 50px 20px;
+	@media (max-width: 600px) {
+		padding: 20px;
+	}
 	.logo {
 		margin: 0 auto;
 		width: 323px;
+		text-align: center;
 		img {
 			width: 323px;
 			height: auto;
 			margin: 0 auto;
+			@media (max-width: 600px) {
+				width: 180px;
+				margin: 0 auto;
+			}
 		}
 		.navLinks {
 			@include centerBox();

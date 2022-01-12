@@ -1,11 +1,15 @@
 .roadmap {
 	max-width: 732px;
+	width: 100%;
 	margin: 70px auto;
 
 	h2 {
 		font-size: 146px;
-		font-size: 400;
+		font-weight: 600;
 		color: $color1;
+		@media (max-width: 600px) {
+			font-size: 70px;
+		}
 	}
 	h3 {
 		margin-top: 30px;
@@ -20,6 +24,9 @@
 		color: $fontColor;
 		li {
 			font-size: 24px;
+			@media (max-width: 600px) {
+				font-size: 18px;
+			}
 		}
 	}
 	.percentages {
@@ -29,12 +36,18 @@
 			font-size: 48px;
 			font-weight: 600;
 			line-height: 56px;
+			@media (max-width: 600px) {
+				text-align: center;
+			}
 		}
 		.listDesc {
 			margin-left: 20px;
 			width: 464px;
 			li {
 				font-size: 24px;
+				@media (max-width: 600px) {
+					font-size: 18px;
+				}
 			}
 		}
 	}

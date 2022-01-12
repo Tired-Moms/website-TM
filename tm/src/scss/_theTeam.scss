@@ -1,0 +1,65 @@
+.teamSection {
+	max-width: 740px;
+	margin: 0 auto;
+	h2 {
+		font-size: 142px;
+		font-weight: 600;
+		text-align: center;
+		color: $color1;
+		margin-bottom: 20px;
+		@media (max-width: 600px) {
+			font-size: 65px;
+		}
+	}
+	.team {
+		@include centerBox(space-between, flex-start);
+		figure {
+			position: relative;
+			width: 354px;
+			height: 354px;
+			overflow: hidden;
+			border-radius: 30px;
+			z-index: 1;
+			margin-block-start: 0;
+			margin-block-end: 0;
+			margin-inline-start: 0;
+			margin-inline-end: 0;
+			margin: 5px;
+			@include centerBox(center, flex-end);
+			@media (max-width: 600px) {
+				height: 320px;
+				margin-bottom: 20px;
+			}
+			img {
+				position: absolute;
+				width: 100%;
+				height: auto;
+				@media (max-width: 600px) {
+					top: 0;
+				}
+			}
+			figcaption {
+				font-size: 31px;
+				font-weight: bold;
+				z-index: 3;
+				position: absolute;
+				color: white;
+				line-height: 97%;
+				bottom: 35px;
+				strong {
+					font-size: 29px;
+					font-weight: 300;
+				}
+			}
+			&::after {
+				position: absolute;
+				display: block;
+				width: 354px;
+				height: 360px;
+				background-color: rgba(#000000, 0.2);
+				content: '';
+				z-index: 2;
+			}
+		}
+	}
+}

@@ -13,27 +13,27 @@ export default function Navigation() {
 			<div className="menuBox">
 				<ul>
 					<li>
-						<a href="#story" target="_blank" rel="noopener noreferrer">
+						<a href="#story" rel="noopener noreferrer">
 							Story
 						</a>
 					</li>
 					<li>
-						<a href="#membership" target="_blank" rel="noopener noreferrer">
+						<a href="#membershipLink" rel="noopener noreferrer">
 							Membership
 						</a>{' '}
 					</li>
 					<li>
-						<a href="#roadmap" target="_blank" rel="noopener noreferrer">
+						<a href="#roadmap" rel="noopener noreferrer">
 							Roadmap
 						</a>
 					</li>
 					<li>
-						<a href="#team" target="_blank" rel="noopener noreferrer">
+						<a href="#team" rel="noopener noreferrer">
 							Team
 						</a>
 					</li>
 					<li>
-						<a href="#faq" target="_blank" rel="noopener noreferrer">
+						<a href="#faq" rel="noopener noreferrer">
 							FAQ
 						</a>
 					</li>

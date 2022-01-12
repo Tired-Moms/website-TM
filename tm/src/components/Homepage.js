@@ -9,6 +9,8 @@ import Gallery from './partialComponents/Gallery';
 import Faq from './partialComponents/Faq';
 import RoadMap from './partialComponents/RoadMap';
 import AboutTheArt from './partialComponents/AboutTheArt';
+import TheTeam from './partialComponents/TheTeam';
+import Membership from './partialComponents/Membership';
 
 export default function Homepage() {
 	const tm = `url(${mom})`;
@@ -17,7 +19,7 @@ export default function Homepage() {
 		<div className="homePage">
 			<div style={{ backgroundImage: tm }} className="mainContainer">
 				<div className="contentContainer">
-					<div className="welcomeBox">
+					<div className="welcomeBox" id="story">
 						<h1 title="WELCOME TO TIRED MOMS">WELCOME TO</h1>
 						<img src={hLogo} alt="Tired Moms logo" className="hLogo" />
 						<img src={testImg} alt="Test" className="colTM" />
@@ -55,10 +57,12 @@ export default function Homepage() {
 							You earned it mama!
 						</p>
 					</div>
+					<Membership />
 					<Gallery />
 					<VideoSection />
 					<AboutTheArt />
 					<RoadMap />
+					<TheTeam />
 					<Faq />
 				</div>
 			</div>

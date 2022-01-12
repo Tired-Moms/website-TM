@@ -1,0 +1,123 @@
+.membership {
+	margin-bottom: 150px;
+	h2 {
+		text-align: center;
+		font-size: 63px;
+		font-weight: 300;
+		margin: 70px auto 40px;
+		@media (max-width: 600px) {
+			font-size: 35px;
+		}
+		strong {
+			font-weight: 600;
+		}
+	}
+	.benefits {
+		max-width: 732px;
+		width: 100%;
+		margin: 0 auto;
+		@include centerBox(space-between, center);
+		.bBox1,
+		.bBox2,
+		.bBox3,
+		.bBox4,
+		.bBox5,
+		.bBox6 {
+			margin: 5px;
+			border-radius: 30px;
+			width: 354px;
+			min-height: 200px;
+			color: white;
+			padding: 20px;
+			@include centerBox();
+			cursor: pointer;
+
+			&:hover {
+				.titles {
+					display: none;
+				}
+				.content {
+					display: flex;
+				}
+			}
+			.titles {
+				display: flex;
+				h3 {
+					text-align: center;
+					font-size: 28px;
+					font-weight: 300;
+					strong {
+						font-weight: 600;
+					}
+				}
+			}
+			.content {
+				display: none;
+				p {
+					text-align: center;
+					font-weight: 500;
+				}
+			}
+			&.bBox1 {
+				background: linear-gradient(
+					353.53deg,
+					$color2 -0.22%,
+					rgba(225, 197, 27, 0.28) 124.44%
+				);
+				&:hover {
+					background: $color2;
+				}
+			}
+			&.bBox2 {
+				background: linear-gradient(
+					296.13deg,
+					$color3 24.64%,
+					rgba(218, 100, 179, 0.22) 114.04%
+				);
+				&:hover {
+					background: $color3;
+				}
+			}
+			&.bBox3 {
+				background: linear-gradient(
+					353.53deg,
+					$color4 -0.22%,
+					rgba(27, 202, 225, 0.28) 124.44%
+				);
+				&:hover {
+					background: $color4;
+				}
+			}
+			&.bBox4 {
+				background: linear-gradient(
+					353.53deg,
+					$color5 -0.22%,
+					rgba(137, 231, 49, 0.28) 124.44%
+				);
+				&:hover {
+					background: $color5;
+				}
+			}
+			&.bBox5 {
+				background: linear-gradient(
+					353.53deg,
+					$color6 -0.22%,
+					rgba(243, 109, 243, 0.28) 124.44%
+				);
+				&:hover {
+					background: $color6;
+				}
+			}
+			&.bBox6 {
+				background: linear-gradient(
+					353.53deg,
+					$color7 -0.22%,
+					rgba(240, 196, 54, 0.28) 124.44%
+				);
+				&:hover {
+					background: $color7;
+				}
+			}
+		}
+	}
+}
