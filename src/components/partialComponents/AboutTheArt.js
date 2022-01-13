@@ -7,7 +7,7 @@ export default function AboutTheArt() {
 				ABOUT <strong>THE ART</strong>
 			</h2>
 			<p>
-				Being mother is a wonderful experience that changes your life, but it is
+				Being mother is a wonderful experience that changes your life, but it's
 				also one of life’s biggest challenges. It means being 24 hours a day, 7
 				days a week, without rest, sleepless nights, strenuous days, living
 				emotional stress and self-pressure, thinking about food, clothes,
@@ -17,9 +17,9 @@ export default function AboutTheArt() {
 				<strong>
 					Tired Moms is a collection of illustrations that pays tribute to moms
 					around the world who feel overwhelmed, tired and who at times feel
-					they can't handle everything. Thank you, moms, because despite feeling
-					that you can no longer, you continue to give your all for your beloved
-					children.
+					they can't handle everything. Thank you moms, because despite feeling
+					that you can no longer go on with the daily presures, you continue to
+					give your all for your beloved family and children.
 				</strong>
 			</p>
 			<hr className="lineHr" />
@@ -34,10 +34,10 @@ export default function AboutTheArt() {
 				storytelling through my creations, so dedicating myself to something
 				creative as an adult was essential for me. I am currently a freelance
 				illustrator and cartoonist, and together with my husband we have a
-				creativity and design company, which has allowed me to work from home
-				and dedicate much of my time to my one-year-old son. Although being a
-				mom and working at home isn't always easy, I find this a wonderful
-				experience I never thought I'd have.
+				creative and design company, which has allowed me to work from home and
+				dedicate most of my time to my one-year-old son and my craft. Although
+				being a mom and working at home isn't always easy, I find this a
+				wonderful experience that I never thought I'd have.
 			</p>
 		</div>
 	);
