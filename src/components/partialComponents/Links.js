@@ -1,7 +1,7 @@
 import React from 'react';
 import twitter from '../../assets/twitter.png';
 import discord from '../../assets/discord.png';
-import opensea from '../../assets/opensea-logo.png';
+// import opensea from '../../assets/opensea-logo.png';
 
 export default function Links() {
 	return (
