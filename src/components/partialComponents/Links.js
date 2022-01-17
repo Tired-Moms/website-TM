@@ -13,7 +13,7 @@ export default function Links() {
 			</li> */}
 			<li>
 				<a
-					href="https://discord.io/tiredmomsnft"
+					href="https://discord.gg/pudnaA9nx3"
 					target="_blank"
 					rel="noopener noreferrer"
 				>
