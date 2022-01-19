@@ -1,10 +1,10 @@
 import React from 'react';
-import testImg2 from '../../assets/test2.png';
+import tMCollage from '../../assets/Moms-Collage.png';
 
 export default function Gallery() {
 	return (
 		<>
-			<img src={testImg2} alt="Test" className="colTMtwo" />
+			<img src={tMCollage} alt="Tired Moms" className="colTMtwo" />
 		</>
 	);
 }
