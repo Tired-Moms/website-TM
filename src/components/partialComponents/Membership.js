@@ -76,7 +76,7 @@ export default function Membership() {
 							is welcome. We want the newbies and the experienced crypto
 							veterans. The wealth of our community will be in the combined
 							crypto knowledge that will build up the TiredMom space. Afterall,
-							it takes a village. Being an TiredMom holder will also ensure that
+							it takes a village. Being a TiredMom holder will also ensure that
 							you participate in community meetups and events.
 						</p>
 					</div>
