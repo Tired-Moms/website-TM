@@ -12,7 +12,7 @@ export default function Faq() {
 				<li>What’s the total number available to mint?</li>
 				<ul>
 					<li>
-						Total number to be minted is 10,000. 250 will be reserved for
+						Total number to be minted is 11,111. 250 will be reserved for
 						marketing pre and post mint.
 					</li>
 				</ul>

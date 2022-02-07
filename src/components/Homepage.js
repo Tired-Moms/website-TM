@@ -24,7 +24,7 @@ export default function Homepage() {
 						<img src={hLogo} alt="Tired Moms logo" className="hLogo" />
 						<img src={testImg} alt="Test" className="colTM" />
 						<p>
-							TiredMom NFT’s are 10,000 randomly generated & unique art pieces
+							TiredMom NFT’s are 11,111 randomly generated & unique art pieces
 							carefully crafted to represent the world's current vision of a
 							Tired Mom. What is a Tired Mom you ask? The mom that grabs the
 							groceries, helps with school projects, attends PTA meetings, and
