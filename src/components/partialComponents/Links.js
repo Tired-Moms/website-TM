@@ -1,6 +1,7 @@
 import React from 'react';
 import twitter from '../../assets/twitter.png';
 import discord from '../../assets/discord.png';
+import tikTok from '../../assets/TikTok.png';
 // import opensea from '../../assets/opensea-logo.png';
 
 export default function Links() {
@@ -11,6 +12,15 @@ export default function Links() {
 					<img src={opensea} alt="Opensea icon" />
 				</a>
 			</li> */}
+			<li>
+				<a
+					href="https://www.tiktok.com/@tiredmomsnft"
+					target="_blank"
+					rel="noopener noreferrer"
+				>
+					<img src={tikTok} alt="Opensea icon" />
+				</a>
+			</li>
 			<li>
 				<a
 					href="https://discord.io/tiredmomsnft"
