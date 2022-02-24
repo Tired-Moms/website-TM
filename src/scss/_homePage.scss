@@ -1,16 +1,28 @@
 .homePage {
-	.mainContainer {
+	.mainContainerTM {
 		background-size: 100%;
 		background-repeat: no-repeat;
-		background-attachment: fixed;
+		background-attachment: scroll;
 		background-position: top center;
-		padding-top: 1024px;
-		@media (max-width: 1440px) {
-			padding-top: 580px;
-		}
+		@include centerBox();
+		// padding-top: 1024px;
+		padding: 350px 0 0;
+		// @media (max-width: 1440px) {
+		// 	padding-top: 580px;
+		// }
 		@media (max-width: 600px) {
 			padding-top: 227px;
 			background-attachment: scroll;
+		}
+		.mintingBox {
+			width: 100%;
+			max-width: 350px;
+			padding: 20px;
+			background-color: gray;
+			border-radius: 4px;
+			@extend %shadow;
+			margin-bottom: 100px;
+			@include centerBox();
 		}
 		.contentContainer {
 			background-color: $bgColor;

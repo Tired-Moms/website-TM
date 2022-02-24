@@ -1,10 +1,17 @@
 .footer {
 	width: 100%;
+	position: absolute;
+
 	@extend %shadow2;
 	border-radius: 64px 64px 0px 0px;
 	padding: 50px 20px;
+	margin-top: -150px;
+
 	@media (max-width: 600px) {
 		padding: 20px;
+		position: relative;
+		margin-top: 0;
+		border-radius: 0px;
 	}
 	.logo {
 		margin: 0 auto;

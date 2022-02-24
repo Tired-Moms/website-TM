@@ -1,0 +1,17 @@
+{
+    "CONTRACT_ADDRESS": "0x50b074F0291efd0f9c4408415201a7dADc378fEF",
+    "SCAN_LINK": "https://rinkeby.etherscan.io/address/0x50b074F0291efd0f9c4408415201a7dADc378fEF",
+    "NETWORK": {
+      "NAME": "Rinkeby",
+      "SYMBOL": "ETH",
+      "ID": 4
+    },
+    "NFT_NAME": "Tired Moms",
+    "SYMBOL": "TM",
+    "MAX_SUPPLY": 11111,
+    "WEI_COST": 70000000000000000,
+    "DISPLAY_COST": 0.07,
+    "MARKETPLACE": "Opensea",
+    "MARKETPLACE_LINK": "https://opensea.io/collection/BlockchainMiners",
+    "SHOW_BACKGROUND": true
+  }
