@@ -161,6 +161,8 @@ function App() {
 								{blockchain.account === '' ||
 								blockchain.smartContract === null ? (
 									<div className="connectBox">
+										<h3>Minting Now!!</h3>
+
 										<button
 											className="btnConnect"
 											onClick={(e) => {
@@ -182,8 +184,7 @@ function App() {
 										<h3>{feedback}</h3>
 										{data?.totalSupply === data?.totalSupply ? (
 											<>
-												{' '}
-												<div>
+												<>
 													<h2 className="totalSupply">
 														<NumberFormat
 															value={data?.totalSupply}
@@ -223,7 +224,7 @@ function App() {
 															+
 														</a>
 													</div>
-												</div>
+												</>
 												<>
 													<h5>
 														{(CONFIG.DISPLAY_COST * mintAmount).toFixed(2)}{' '}
@@ -240,7 +241,7 @@ function App() {
 													>
 														{claimingNft ? 'BUSY' : 'Mint'}
 													</button>
-												</>{' '}
+												</>
 											</>
 										) : (
 											<h2 className="soldOut">Sold Out!!</h2>

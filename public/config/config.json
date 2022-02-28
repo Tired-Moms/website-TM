@@ -1,6 +1,6 @@
 {
-    "CONTRACT_ADDRESS": "0x50b074F0291efd0f9c4408415201a7dADc378fEF",
-    "SCAN_LINK": "https://rinkeby.etherscan.io/address/0x50b074F0291efd0f9c4408415201a7dADc378fEF",
+    "CONTRACT_ADDRESS": "0x851BC0fB217E058b2DAc5bd11586b59215c22862",
+    "SCAN_LINK": "https://rinkeby.etherscan.io/address/0x851BC0fB217E058b2DAc5bd11586b59215c22862",
     "NETWORK": {
       "NAME": "Rinkeby",
       "SYMBOL": "ETH",
@@ -12,6 +12,6 @@
     "WEI_COST": 70000000000000000,
     "DISPLAY_COST": 0.07,
     "MARKETPLACE": "Opensea",
-    "MARKETPLACE_LINK": "https://opensea.io/collection/BlockchainMiners",
+    "MARKETPLACE_LINK": "https://opensea.io/collection/TMNFT",
     "SHOW_BACKGROUND": true
   }

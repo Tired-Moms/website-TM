@@ -3,7 +3,7 @@ import thunk from 'redux-thunk';
 import blockchainReducer from './blockchain/blockchainReducer';
 import dataReducer from './data/dataReducer';
 import mintReducer from './mint/mintReducer';
-// import { composeWithDevTools } from '@redux-devtools/core';
+import { composeWithDevTools } from 'redux-devtools-extension';
 
 const rootReducer = combineReducers({
 	blockchain: blockchainReducer,
@@ -13,7 +13,7 @@ const rootReducer = combineReducers({
 
 const middleware = [thunk];
 
-const composeEnhancers = applyMiddleware(...middleware);
+const composeEnhancers = composeWithDevTools(applyMiddleware(...middleware));
 
 const configureStore = () => {
 	return createStore(rootReducer, composeEnhancers);
