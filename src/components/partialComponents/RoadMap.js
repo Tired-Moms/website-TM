@@ -83,12 +83,13 @@ export default function RoadMap() {
 					for ordering your coffee directly from Colombia.
 				</p>
 				<p>
-					For more details join our{' '}
+					For more details join our
 					<a
 						href="https://discord.io/tiredmomsnft"
 						target="_blank"
 						rel="noopener noreferrer"
 					>
+						{' '}
 						discord.
 					</a>
 				</p>
