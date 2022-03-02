@@ -7,7 +7,7 @@ export default function RoadMap() {
 			<h3>PREMINT</h3>
 			<ul>
 				<li>Build community</li>
-				<li>Raffle off WL spots </li>
+				<li>Raffle off presale spots </li>
 				<li>Reserve 200 Images for Marketing/Giveaways</li>
 			</ul>
 			<h3>ROADMAP 1.0</h3>

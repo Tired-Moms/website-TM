@@ -23,8 +23,8 @@ export default function Faq() {
 				<li>Who is eligible for pre-sale?</li>
 				<ul>
 					<li>
-						Presale will be available to the whitelist. Whitelist will total
-						2000 and will be allowed to mint 3 max.
+						Presale will be available to the presale. Presale will total 2000
+						and will be allowed to mint 3 max.
 					</li>
 				</ul>
 				<li>When is the reveal date?</li>
