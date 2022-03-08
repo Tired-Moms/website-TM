@@ -34,6 +34,7 @@ export default function RoadMap() {
 					</li>
 					<li>Merch Store will launch.</li>
 					<li>Creation of Donation fund and voting on who to donate to.</li>
+					<li>Coffee utility ordered for the NFT holders.</li>
 				</ul>
 			</div>
 			<div className="percentages">
